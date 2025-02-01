@@ -1,0 +1,72 @@
+#red{
+    margin-left: 20%;
+    width: 30%;
+    background-color: crimson;
+    border-radius: 30%;
+} 
+ 
+#blue{
+    margin-left: 20%;
+    width: 30%;
+    background-color: blue;
+    border-radius: 30%;
+} 
+
+
+#purple{
+    margin-left: 20%;
+    width: 30%;
+    background-color: rgb(106, 20, 180);
+    border-radius: 30%;
+} 
+
+
+#red:hover {
+    font-size: 40px;
+
+}
+
+#blue:hover {
+    font-size: 40px;
+    
+}
+
+#purple:hover {
+    font-size: 40px;
+    
+}
+
+
+.red{
+    visibility: hidden;
+
+}
+
+.blue{
+    visibility: hidden;
+
+}
+
+.purple{
+    visibility: hidden;
+}
+
+
+#red:hover ~div > .red{
+    visibility: visible;
+    margin-left: 20%;
+}
+
+#blue:hover ~div >.blue{
+    visibility: visible;
+    margin-left: 36%;
+
+
+}
+
+#purple:hover ~div > .purple{
+    visibility: visible;
+    margin-left: 53%;
+
+
+}
